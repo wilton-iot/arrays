@@ -89,7 +89,7 @@ define([
             var step = 4096;
             var list = [];
             for (var i = 0; i < this.length; i++) {
-                list.push(String.fromCharCode(this.array[i]));
+                list.push(String.fromCharCode(this.arrayList.array[i]));
                 if (0 === i % step) {
                     list = [list.join("")];
                 }
