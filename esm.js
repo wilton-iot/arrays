@@ -1,5 +1,5 @@
 /*
- * Copyright 2018, alex at staticlibs.net
+ * Copyright 2020, alex at staticlibs.net
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,15 +14,8 @@
  * limitations under the License.
  */
 
-define([
-    "arrays/Float32ArrayList",
-    "arrays/Float64ArrayList",
-    "arrays/Int16ArrayList",
-    "arrays/Int32ArrayList",
-    "arrays/Int8ArrayList",
-    "arrays/StringBuilder",
-    "arrays/Uint16ArrayList",
-    "arrays/Uint32ArrayList",
-    "arrays/Uint8ArrayList",
-    "arrays/Uint8ClampedArrayList"
-], function() {});
+import { require } from "wilton-requirejs";
+
+const arrays = require("arrays");
+
+export default arrays;
